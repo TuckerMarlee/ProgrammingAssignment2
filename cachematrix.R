@@ -31,7 +31,7 @@
 	# 'makeCacheMatrix' function above. If the inverse has been calculated previously, it will extract or get
 	# the inverse from the cache instead of re-computing it. If the inverse has not been calculated
 	# previously, the function will calculate the inverse of the data and set the inverse value in the cache
-	# using the 'setinver' function.
+	# using the 'setinv' function.
 
 	cacheSolve <- function(x, ...) {
 			## Return a matrix that is the inverse of 'x'
